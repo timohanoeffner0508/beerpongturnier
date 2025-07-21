@@ -1,11 +1,16 @@
-console.log('Starte Beerpongturnier App');
-
 const express = require('express');
 const path = require('path');
 const app = express();
 
-const PORT = process.env.PORT || 8080;
+console.log('Starte Beerpongturnier App');
+
+const PORT = process.env.PORT;
 console.log('PORT:', PORT);
+
+if (!PORT) {
+  console.error('Kein Port gesetzt! App bricht ab.');
+  process.exit(1);
+}
 
 app.use(express.static(path.join(__dirname, 'public')));
 
