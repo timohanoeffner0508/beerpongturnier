@@ -1,0 +1,21 @@
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.slider-image {
+  width: 600px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.slider-button {
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  user-select: none;
+}
