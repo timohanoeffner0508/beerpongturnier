@@ -1,0 +1,23 @@
+{
+  "name": "node-app",
+  "version": "1.0.0",
+  "description": "Application for signup for tournament",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timohanoeffner0508/beerpongturnier.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timohanoeffner0508/beerpongturnier/issues"
+  },
+  "homepage": "https://github.com/timohanoeffner0508/beerpongturnier#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
