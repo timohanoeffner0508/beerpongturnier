@@ -4,7 +4,7 @@ function App() {
   const [message, setMessage] = useState('Lade...');
 
   useEffect(() => {
-    fetch(`${import.meta.env.VITE_API_URL}/api/hello`)
+    fetch(`${import.meta.env.VITE_API_URL}/hello`)
       .then((res) => res.text())
       .then(setMessage)
       .catch(() => setMessage('Fehler beim Abrufen der Nachricht'));
